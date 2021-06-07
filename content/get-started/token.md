@@ -25,6 +25,8 @@ A Keystore is a Key and Certificate managing tool. It is used to Encapsulate cer
 
 To create a keystore you first need a Enterprise Certificate. The Enterprise Certificate can be ordered from [Commfides](https://www.commfides.com/commfides-virksomhetssertifikat/) or [Buypass](https://www.buypass.no/produkter/virksomhetssertifikat-esegl)
 
+For development, you need a "test certificate" (https://www.buypass.no/produkter/virksomhetssertifikat-esegl/virksomhetssertifikat-for-norge)
+
 Once you have a valid Enterprise Certificate you need to add it to a Keystore file to be able to use it programatically. We use [Keystore Explorer](https://keystore-explorer.org/)
 
 1. Start the Keystore Explorer application and open your Enterprise Certificate. After opening you will be prompted for the certificates password
